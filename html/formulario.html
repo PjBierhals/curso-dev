@@ -28,6 +28,25 @@
             <Input type="password" name="senha" id="senha" required>
         </div>
         <div>
+            <div>
+                <label for="bio">Fale sobre você:</label>
+            </div>
+            <textarea name="bio" id="bio" cols="25" rows="5"></textarea>
+        </div>
+        <div>
+            <div>
+                <label>Tipo Residência:</label>
+            </div>
+            <Input type="radio" name="residencia" id="casa" value="casa">
+            <label for="residencia">Casa:</label>
+            <Input type="radio" name="residencia" id="apto" value="apto">
+            <label for="residencia">Apto:</label>
+            <Input type="radio" name="residencia" id="sitio" value="sitio">
+            <label for="residencia">Sitio:</label>
+            <Input type="radio" name="residencia" id="fazenda" value="fazenda">
+            <label for="residencia">Fazenda:</label>
+        </div>
+        <div>
             <button>Salvar</button>
             <button type="reset">Limpar</button>
         </div>
